@@ -68,6 +68,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: clamp(8px,4vw,16px);
     /* animation: 4s linear slideindown; */
     /* animation-delay: 7s; */
 
@@ -195,7 +196,7 @@
   padding-left: 0%;
   padding-top: 5%;
   display: flex;
-  
+  text-align: center; 
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
@@ -579,23 +580,18 @@ html {
   .logo2 img{
     top:22vh;
   }
+
   .shadow{
     margin-top: 1vh;
-  }
-  .demo-container{
-    margin-bottom: 5vh;
   }
   .container{
     margin-top: 5vh;
   }
-  .button1{
-    margin-left: 6%;
-  }
-  .button2{
-    margin-left: -20%;
-  }
   .sub-head{
     margin-top: 3vh;
+  }
+  .container{
+    flex-direction: column;
   }
 }
 
