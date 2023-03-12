@@ -594,6 +594,9 @@ html {
   .button2{
     margin-left: -20%;
   }
+  .sub-head{
+    margin-top: 3vh;
+  }
 }
 
 .headline>pre{
