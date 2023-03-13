@@ -333,6 +333,7 @@ footer {
   width: 80vw;
   /* margin-left: 6vw; */
   height: 30vh;
+  z-index: 2;
   border-radius: 1rem;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -341,6 +342,7 @@ footer {
   border: 1px solid black;
   width: 80vw;
   height: 30vh;
+  z-index: 1;
   margin-left: 10vw;
   margin-top: -10vh;
   border-radius: 1rem;
@@ -427,166 +429,6 @@ body {
   margin: 0px;
   font-family: 'segoe ui';
 }
-
-.nav {
-  height: 50px;
-  width: 100%;
-  background-color: var(--bg);
-  position: fixed;
-  z-index: 100;
-  box-shadow: rgb(0 0 0) 0px 5px 10px 0px;
-}
-
-.nav>.nav-header {
-  display: inline;
-}
-
-.nav>.nav-header>.nav-title {
-  display: inline-block;
-  font-size: 22px;
-  color: #00fbff;
-  padding: 10px 10px 10px 10px;
-  font-family: 'Press Start 2P', cursive;
-  /* componec title */
-}
-
-.nav>.nav-btn {
-  display: none;
-}
-
-.nav>.nav-links {
-  display: inline;
-  float: right;
-  font-size: 18px;
-  z-index: 99;
-}
-
-.nav>.nav-links>a {
-  display: inline-block;
-  margin: 0.3rem;
-  text-decoration: none;
-  color: #00fbff;
-}
-
-.nav>.nav-links>a:hover {
-  background-color: var(--cblue);
-  color: var(--bg);
-}
-
-.nav>#nav-check {
-  display: none;
-}
-
-@media (max-width:600px) {
-  .nav>.nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-
-  .nav>.nav-btn>label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-
-  .nav>.nav-btn>label:hover,
-  .nav #nav-check:checked~.nav-btn>label {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-
-  .nav>.nav-btn>label>span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #00fbff;
-  }
-
-  .nav>.nav-links {
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: #333;
-    /* transition: all 0.3s ease-in; */
-    overflow-y: hidden;
-    top: 50px;
-    left: 0px;
-  }
-
-  .nav>.nav-links>a {
-    display: block;
-    width: 100%;
-    padding: 13px 10px 13px 10px;
-  }
-
-  .shrink {
-    height: 0px;
-  }
-
-  .unshrink {
-    height: calc(100vh - 50px);
-    overflow-y: auto;
-  }
-
-  /* .nav>#nav-check:not(:checked)~.nav-links {
-  height: 0px;
-}
-
-.nav>#nav-check:checked~.nav-links {
-    height: calc(100vh - 50px);
-    overflow-y: auto;
-  } */
-}
-
-
-.technical-router {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 13px 10px 13px 10px;
-}
-
-.technical-head {
-  color: var(--cblue);
-}
-
-
-.technical-extension ul {
-  padding: 1rem 1rem;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.technical-extension ul a {
-  padding: 0.2rem;
-  list-style: none;
-  color: var(--cblue);
-}
-
-.technical-router:hover .technical-extension {
-  display: block;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.technical-extension {
-  display: none;
-}
-
-
-
-
-
-
-
-
 
 
 /* Designs for laptop starts */
