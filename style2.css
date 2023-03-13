@@ -1,6 +1,9 @@
 *{
     animation: unset;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   nav{
     display: flex;
     background-color: #38495a;
@@ -52,7 +55,7 @@
         svg {
             font-family: 'Russo One', sans-serif;
              width: 100%; 
-            height: 20vw;
+            height: 20vh;
         }
         svg text {
             text-transform: uppercase;
