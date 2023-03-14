@@ -1,10 +1,5 @@
-*{
-    animation: unset;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  nav{
+
+nav{
     display: flex;
     background-color: #38495a;
     height: 32px;
@@ -92,6 +87,7 @@
   justify-content: center;
   font-size: 2rem;
   padding-top: 1vh;
+
   padding-left: 2vw;
   text-align: center;
   font-size: clamp(20px, 5vw, 36px);
@@ -332,7 +328,7 @@
     --animate-duration: 2s;
   }
   
-  html {
+  .landing-page {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   }

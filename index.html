@@ -22,15 +22,30 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="intro.css" />
+  
 </head>
 
 <body>
-
-    <div id="loader">
-        <h1>CompoNec</h1>
+    
+    <script src="index.js"></script>
+    <div id="firstpage">
+    <button onclick="executethis()" >Lets Go</button>
     </div>
-
-    <div id="body">
+    <div class="intro-container" id="intro-container" style="display:none;">
+        <div id="fly-in">
+          <div><span></span>National Engineering College</div>
+          <div>Computer Science Engineering<span>Association</span></div>
+          <div>Welcomes you<span>to the</span></div>
+          <div><span>Much Awaited</span>Inter College cultural fest</div>
+        </div>
+  
+        <audio loop id="bgm">
+          <source src="./assets/bgm.mp4" type="audio/mp4" />
+        </audio>
+    </div>
+    <div id="body" style="display:none;">
+        
         <div class="section-container">
             <div class="landing-page">
               <link
@@ -327,9 +342,9 @@
                 </div> 
             </div>
         </main>
-    </div>
+    
 
-</div>	
+
 
 
 
@@ -383,8 +398,7 @@
             </div>
             <span class="copyright">copyright reserved NEC2023</span>
         </footer>
-    
-    <script src="index.js"></script>
+    </div>	
 
     <!-- smooth scrolling behavior -->
 
