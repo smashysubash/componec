@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componec</title>
+    <link rel="stylesheet" href="intro.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="reg-btn.css">
     <link rel="stylesheet" href="screen-card.css">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/dab3065309.css" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/dab3065309.js" crossorigin="anonymous"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Amita&family=Climate+Crisis&family=Pacifico&family=Tilt+Prism&display=swap"
@@ -19,15 +19,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-    <link rel="stylesheet" href="intro.css" />
-  
 </head>
 
 <body>
-    
+
     <script src="index.js"></script>
-    <div id="firstpage">
-    <button onclick="executethis()" >Lets Go</button>
+    <div id="firstpage" class="container">
+        <a class="button" onclick="executethis()" href="#" style="--color:#1e9bff;">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Let's Go
+        </a>
     </div>
     <div class="intro-container" id="intro-container" style="display:none;">
         <div id="fly-in">
@@ -41,8 +45,8 @@
           <source src="./assets/bgm.mp4" type="audio/mp4" />
         </audio>
     </div>
-    <div id="body" style="display:none;">
-        
+    <bodysoda id="content-body" style="display:none;">
+    <div id="body">
         <div class="section-container">
             <div class="landing-page">
                 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"
@@ -92,7 +96,7 @@
                 <div class="logo2 animate__animated animate__lightSpeedInLeft">
                     <img src="./assets/Componec Logo2.webp" class="character" />
                 </div>
-                <div class="button-container"><button class='glowing-btn'><span class='glowing-txt'>E<span
+                <div class="button-container button-container2"><button class='glowing-btn'><span class='glowing-txt'>E<span
                     class='faulty-letter'>V</span>ENTS</span></button></div>
                 </div>
     
@@ -415,8 +419,7 @@
                 </div>
             </div>
         </main>
-    
-
+    </div>
 
     </div>
 
@@ -698,7 +701,7 @@
         </div>
         <span class="copyright">copyright reserved NEC2023</span>
     </footer>
-
+    </bodysoda>
     <script src="index.js"></script>
 
     <!-- smooth scrolling behavior -->
