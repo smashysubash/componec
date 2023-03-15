@@ -1,0 +1,69 @@
+:root {
+  --bg: #20222e;
+  --bg1: #92baba;
+  --cblue: #00fbff;
+}
+
+.reg-btn {
+  all: unset;
+}
+
+.reg-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button-container {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.reg-btn-container {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.title-deco-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--cblue);
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.diamond-container {
+  width: 10rem;
+  height: 3rem;
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  margin-top: -1.5rem;
+}
+
+.icon-diamond-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid var(--cblue);
+  transform: rotate(45deg);
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.cblue-diamond {
+  background-color: var(--cblue);
+  border: none;
+}
+
+
+.white-diamond {
+  background-color: white;
+  border: none;
+}
